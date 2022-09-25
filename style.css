@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   margin: 0;
@@ -157,7 +158,44 @@ header nav .nav-links a {
   cursor: pointer;
 }
 footer {
-  height: 70px;
   background-color: black;
   margin-top: 90px;
+}
+.up-footer,
+.down-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.up-footer {
+  padding: 20px 100px 5px 100px;
+}
+.down-footer {
+  padding: 5px 100px 20px 100px;
+}
+.footer-logo {
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.socials {
+  color: white;
+  font-size: 20px;
+}
+i {
+  padding: 0 5px;
+  cursor: pointer;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0px 10px;
+  font-size: 15px;
+}
+#first {
+  padding-left: 0px;
+}
+.down-footer .copyright p {
+  color: #ffffff;
+  font-size: 13px;
 }
